@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado</title>
+    <link rel="icon" href="http://www.ciens.ucv.ve/portalasig2/favicon.ico">
+  </head>
+
+  <style>
+   * {
+    margin: 0;
+    padding: 0;
+   }
+
+   body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   header, footer {  
+      background-color: #8CAFE6;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .menu-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+      color: white;
+    }
+
+    .page-name {
+      font-size: 24px;
+    }
+
+    .page-name span {
+      font-size: 16px;
+    }
+
+    .student-name {
+      font-size: 13px
+    }
+
+    .line {
+      background-color: white;
+      width: 1px;
+      height: 32px;
+    }
+
+    .search input, .search button {
+      padding: 6px;
+      border: 1px solid #8CAFE6;
+      color: #8CAFE6;
+    }
+
+    .search button {
+      cursor: pointer;
+    }
+    
+    .search button:hover {
+      background-color: #e2edff;
+      color: black;
+    }
+
+
+    footer {
+      font-size: 12px; 
+    }
+
+    .dummies-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 16px;
+      margin: 16px;
+    }
+
+    .dummies-container .dummie {
+      background-color: #F5F5F5;
+      padding: 16px;
+      font-size: 10px;
+      text-align: center;
+      color: #8CAFE6;
+      list-style-type: none;
+    }
+
+    .dummies-container .dummie img {
+      margin-bottom: 8px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="menu-container">
+          <li class="page-name">ATI<span>[UCV]</span> 2024-1</li>
+          <li class="line"></li>
+          <li class="student-name">Hola, Jesus Cova</li>
+          <li class="line"></li>
+          <li>
+            <form class="search" action="" method="get">
+              <input type="text" name="query" placeholder="Nombre...">
+              <button type="submit">Buscar</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section >
+      <ul class="dummies-container">
+        <li class="dummie">
+          <img src="/Reto01/29.565.856/29565856.jpg" height="120">
+          <h2>Jesús Cova</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy6/dummy.jpg" height="120">
+          <h2>Juan Antonio Perez</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy3/dummy.jpg" height="120">
+          <h2>Maritza Rodriguez</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy1/dummy.jpg" height="120">
+          <h2>Emilia Casado</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy4/dummy.jpg" height="120">
+          <h2>Enrique Colina</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy2/dummy.jpg" height="120">
+          <h2>Maria Elena Pinto</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy6/dummy.jpg" height="120">
+          <h2>Ronald Gutierrez</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy6/dummy.jpg" height="120">
+          <h2>Juan Antonio Perez</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy3/dummy.jpg" height="120">
+          <h2>Maritza Rodriguez</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy1/dummy.jpg" height="120">
+          <h2>Emilia Casado</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy4/dummy.jpg" height="120">
+          <h2>Enrique Colina</h2>
+        </li>
+        <li class="dummie">
+          <img src="/Reto01/dummies/dummy2/dummy.jpg" height="120">
+          <h2>Maria Elena Pinto</h2>
+        </li>
+        
+      </ul>
+
+    </section>
+
+    <footer>
+      Copyright © 2024 Escuela de computación -
+      ATI. Todos los derechos reservados
+    </footer>
+  </body>
+</html>
