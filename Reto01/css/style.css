@@ -1,11 +1,11 @@
+
 body {
- width: 800px;
+ width: 900px;
  margin: 0 auto;
  font-family: Arial, Helvetica, sans-serif;
 }
 header, footer {  
    background-color: #8CAFE6;
-   padding: 16px;
    text-align: center;
  }
 
@@ -15,6 +15,7 @@ header, footer {
    align-items: center;
    list-style-type: none;
    color: white;
+   padding: 10px;
  }
 
  .page-name {
@@ -53,14 +54,16 @@ header, footer {
 
  footer {
    font-size: 12px; 
+   padding: 10px;
  }
 
  .dummies-container {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(3, 1fr);
-   gap: 16px;
-   margin: 16px;
+   gap: 24px;
+   margin: 16px 32px;
+   padding: 0;
  }
 
  .dummies-container .dummie {
@@ -70,14 +73,21 @@ header, footer {
    text-align: center;
    color: #8CAFE6;
    list-style-type: none;
- }
+   box-shadow: 2px 2px 0px rgba(154, 154, 154, 0.8);
+   transition: 0.5s ease-in-out;
+  }
 
  .dummies-container .dummie img {
    margin-bottom: 8px;
  }
 
- /*Estilos Perfil*/
+ .dummie:hover {
+  background-color: #99c5dd;
+  rotate:5deg;
+  scale: 1.1;
+ }
 
+/*Estilos Perfil*/
  .container {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
