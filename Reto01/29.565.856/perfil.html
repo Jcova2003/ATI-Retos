@@ -10,7 +10,13 @@
   </head>
 
   <body class="container">
-    <img class="perfil-img" src="29565856.jpg" width="200">
+    <div class="img-container">
+      <img class="perfil-img" 
+            srcset="CEDULAPequena.jpg 400w, CEDULAGrande.jpg 720w" 
+            sizes="(max-width: 769px) 200px, (min-width: 769px) 720px" 
+            alt="Foto de perfil" 
+            width="200">
+    </div>
     <div class="perfil-info">
       <h1 class="nombre">Jesús Cova</h1>
       <p class="description">¡Saludos! Soy Jesús Cova estudiante de 6to semestre de la carrera de computación en la facultad de ciencias, tambien soy diseñador gráfico y estoy muy entusiasmado por la materia.</p>
