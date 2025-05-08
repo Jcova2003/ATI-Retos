@@ -8,6 +8,10 @@ body {
   max-width: 900px;
 }
 
+.listado section {
+  min-height: 80vh;
+}
+
 header, footer {  
    background-color: #8CAFE6;
    text-align: center;
@@ -123,6 +127,12 @@ header, footer {
 
 .dummies-container a:visited .dummie {
   background-color: #dcdcdc;
+}
+
+#mensaje-no-encontrado {
+  font-size: 16px;
+  text-align: center;
+  color: #8CAFE6;
 }
 
 /*Estilos Perfil*/
