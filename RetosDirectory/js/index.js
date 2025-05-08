@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       link.href = `perfil.html?ci=${student.ci}`;
 
       const img = document.createElement("img");
-      img.src = `/RetosDirectory/${student.imagen}`;
+      img.src = `${student.imagen}`;
 
       const h2 = document.createElement("h2");
       h2.textContent = student.nombre;
