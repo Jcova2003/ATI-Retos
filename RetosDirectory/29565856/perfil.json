@@ -1,0 +1,13 @@
+const perfil = {	
+	"nombre":"Jesús Cova",
+	"descripcion":"¡Saludos! Soy Jesús Cova estudiante de 6to semestre de la carrera de computación en la facultad de ciencias, tambien soy diseñador gráfico y estoy muy entusiasmado por la materia.",
+	"color": "Rojo",
+	"libro": ["El filosofo y el lobo"],
+	"musica": ["Instrumental"],
+	"video_juego": ["Spiderman PS4"],
+	"lenguajes": ["C++", "Python", "C", "Java"],
+	"email":"jesusecova73@gmail.com",
+	"ci": "29565856",
+	"genero":"masculino",
+	"fecha_nacimiento":"29/03/2003"
+}
