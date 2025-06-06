@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const lang = params.get("lang");
+const lang = params.get("lang") || "ES";
 
 document.addEventListener("DOMContentLoaded", function () {
   const contenedor = document.querySelector(".dummies-container");
@@ -29,11 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 window.onload = function () {
-  if (!lang) {
-      document.body.innerHTML = "<h2>Lenguaje no especificada en la URL.</h2>";
-      return;
-  }
 
+  
   const langscript = document.createElement('script');
   langscript.src = `conf/config${lang}.json`;
   
